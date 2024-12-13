@@ -34,8 +34,9 @@ class encrypt{
     for(let i=0; i<shift; i++){
       if(moves == letters.length - 1){
         moves = 0;
+      }else{
+        moves++;
       }
-      moves++;
     }
   
     if(originalCase == "lower"){
